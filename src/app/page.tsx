@@ -4,7 +4,7 @@ import { Projects } from "./ui/projects";
 
 export default function Home() {
   return (
-    <main className="space-y-20">
+    <main className="space-y-48">
       <Navbar />
       <Hero />
       <Projects />

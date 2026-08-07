@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="container md:max-w-[60%] flex flex-col items-center space-y-5">
+    <section className="container -mt-20 md:max-w-[60%] flex flex-col items-center space-y-5 animate-fade-in-up">
       <Badge variant={"outline"}>
         <div data-icon="inline-start">
           <div className="size-2 bg-primary rounded-full animate-pulse repeat-infinite" />
