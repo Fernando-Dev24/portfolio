@@ -1,9 +1,13 @@
+import { Navbar } from "../components/shared/navbar";
+import { Hero } from "./ui/hero";
+import { Projects } from "./ui/projects";
+
 export default function Home() {
   return (
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero alias
-      cum illum unde aut, rerum error eos ea architecto ullam quos nam nobis,
-      nostrum, quae aliquid inventore culpa quo.
-    </p>
+    <main className="space-y-20">
+      <Navbar />
+      <Hero />
+      <Projects />
+    </main>
   );
 }
