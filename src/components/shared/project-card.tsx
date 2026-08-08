@@ -1,4 +1,4 @@
-import { Project } from "@/data";
+import { StandardProject } from "@/data";
 import {
   Card,
   CardContent,
@@ -11,7 +11,7 @@ import { buttonVariants } from "../ui/button";
 import Link from "next/link";
 import { Badge } from "../ui/badge";
 
-export const ProjectCard = (data: Project) => {
+export const ProjectCard = (data: StandardProject) => {
   return (
     <Card className="relative h-full mx-auto pt-0">
       <div className="absolute inset-0 z-30 aspect-video bg-black/35" />

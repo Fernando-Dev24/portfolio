@@ -24,7 +24,7 @@ const links = [
 
 export const Navbar = () => {
   return (
-    <header className="container py-3 flex items-center justify-between">
+    <header className="container fixed top-0 left-0 w-full z-30 bg-background py-3 flex items-center justify-between border-b border-border">
       <p className="text-accent-foreground">Fernando Ortiz</p>
 
       <nav>
