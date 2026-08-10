@@ -1,6 +1,6 @@
 import { BookOpenText, Code, LucideIcon, School } from "lucide-react";
 
-interface Experience {
+export interface Experience {
   id: string;
   role: string;
   period: string;

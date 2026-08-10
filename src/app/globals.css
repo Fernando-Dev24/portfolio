@@ -186,5 +186,5 @@
 }
 
 .container {
-  @apply mx-auto md:max-w-[90%] lg:max-w-[80%];
+  @apply mx-auto max-w-[90%] lg:max-w-[80%];
 }

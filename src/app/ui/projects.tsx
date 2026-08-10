@@ -1,7 +1,6 @@
 import { ComingSoonCard } from "@/components/shared/coming-soon-card";
 import { ProjectCard } from "@/components/shared/project-card";
 import { TitleSection } from "@/components/shared/title-section";
-import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
@@ -13,15 +12,12 @@ import { PROJECTS } from "@/data";
 
 export function Projects() {
   return (
-    <section className="container my-20 md:max-w-[90%] animate-fade-in-right animate-fill-mode-both">
+    <section className="container my-20 animate-fade-in-right animate-fill-mode-both">
       <div>
         <TitleSection className="text-4xl">
           Proyectos <span className="text-chart-2">destacados</span>
         </TitleSection>
-        <p className="text-muted-foreground">
-          Algunos de mis proyectos que me han hecho crecer como desarrollador de
-          software.
-        </p>
+        <p className="text-muted-foreground">Desliza para visualizar</p>
       </div>
 
       {/* Carousel */}
@@ -37,8 +33,6 @@ export function Projects() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
       </Carousel>
     </section>
   );
