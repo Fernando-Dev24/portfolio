@@ -10,7 +10,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { PROJECTS } from "@/data";
-import { ClockFading } from "lucide-react";
 
 export function Projects() {
   return (

@@ -14,11 +14,11 @@ import { Badge } from "../ui/badge";
 export const ProjectCard = (data: StandardProject) => {
   return (
     <Card className="relative h-full mx-auto pt-0">
-      <div className="absolute inset-0 z-30 aspect-video bg-black/35" />
+      <div className="absolute inset-0 z-0! aspect-video bg-black/35" />
       <img
         src={data.thumbnail}
         alt="card project thumbnail"
-        className="relative z-20 aspect-video w-full object-cover"
+        className="relative z-0! aspect-video w-full object-cover"
       />
 
       <CardHeader>
