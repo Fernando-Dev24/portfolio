@@ -5,7 +5,10 @@ import { SKILLS } from "@/data/skills";
 
 export default function Skills() {
   return (
-    <section className="container my-20 mt-48 md:max-w-[90%] animate-fade-in-up space-y-5">
+    <section
+      className="container my-20 mt-48 md:max-w-[90%] animate-fade-in-up space-y-5 scroll-mt-20 animate-fade-scroll"
+      id="skills"
+    >
       <div>
         <TitleSection className="text-4xl">Habilidades</TitleSection>
       </div>

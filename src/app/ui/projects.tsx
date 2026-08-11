@@ -5,14 +5,15 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 import { PROJECTS } from "@/data";
 
 export function Projects() {
   return (
-    <section className="container my-20 animate-fade-in-right animate-fill-mode-both">
+    <section
+      className="container my-20 scroll-mt-20 animate-fade-scroll"
+      id="projects"
+    >
       <div>
         <TitleSection className="text-4xl">
           Proyectos <span className="text-chart-2">destacados</span>
@@ -21,7 +22,7 @@ export function Projects() {
       </div>
 
       {/* Carousel */}
-      <Carousel className="my-8 animate-fade-in-right animate-fill-mode-both">
+      <Carousel className="my-8">
         <CarouselContent>
           {PROJECTS.map((item) => (
             <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/3">

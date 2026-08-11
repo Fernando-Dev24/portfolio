@@ -1,6 +1,7 @@
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -40,8 +41,18 @@ export function Hero() {
       </div>
 
       <div className="space-x-5">
-        <Button>Ver Proyectos</Button>
-        <Button variant={"outline"}>Contactar</Button>
+        <Link
+          href={"#projects"}
+          className={buttonVariants({ variant: "default" })}
+        >
+          Projectos
+        </Link>
+        <Link
+          href={"#contact"}
+          className={buttonVariants({ variant: "outline" })}
+        >
+          Contacto
+        </Link>
       </div>
     </section>
   );

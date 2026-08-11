@@ -4,7 +4,10 @@ import { EXPERIENCES } from "@/data/experience";
 
 export default function Experience() {
   return (
-    <section className="container my-20 mt-48 space-y-16">
+    <section
+      className="container my-20 mt-48 space-y-16 scroll-mt-20 animate-fade-scroll"
+      id="experience"
+    >
       <div>
         <TitleSection className="text-4xl">Experiencia</TitleSection>
       </div>

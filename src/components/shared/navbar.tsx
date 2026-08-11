@@ -1,23 +1,22 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button, buttonVariants } from "../ui/button";
 import Link from "next/link";
+import { buttonVariants } from "../ui/button";
 import { ThemeSwitcher } from "./theme-switcher";
 
 const links = [
   {
-    url: "/proyectos",
+    url: "#projects",
     label: "Proyectos",
   },
   {
-    url: "/habilidades",
+    url: "#skills",
     label: "Habilidades",
   },
   {
-    url: "/experiencia",
+    url: "#experience",
     label: "Experiencia",
   },
   {
-    url: "/contacto",
+    url: "#contact",
     label: "Contacto",
   },
 ];
