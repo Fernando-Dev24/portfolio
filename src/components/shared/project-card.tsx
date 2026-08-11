@@ -10,15 +10,18 @@ import {
 import { buttonVariants } from "../ui/button";
 import Link from "next/link";
 import { Badge } from "../ui/badge";
+import Image from "next/image";
 
 export const ProjectCard = (data: StandardProject) => {
   return (
     <Card className="relative h-full mx-auto pt-0">
       <div className="absolute inset-0 z-0! aspect-video bg-black/35" />
-      <img
+      <Image
         src={data.thumbnail}
         alt="card project thumbnail"
         className="relative z-0! aspect-video w-full object-cover"
+        width={400}
+        height={400}
       />
 
       <CardHeader>

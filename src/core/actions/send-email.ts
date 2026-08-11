@@ -36,6 +36,7 @@ export async function sendEmail(values: SendMeFormType) {
       message: "Tu mensaje se ha enviado correctamente",
     };
   } catch (error) {
+    console.log({ error });
     return {
       success: false,
       message: "Ha ocurrido un error al enviar",
