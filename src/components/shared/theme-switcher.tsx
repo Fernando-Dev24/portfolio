@@ -26,7 +26,7 @@ export const ThemeSwitcher = () => {
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuGroup>
-          <DropdownMenuLabel>Themes</DropdownMenuLabel>
+          <DropdownMenuLabel>Temas</DropdownMenuLabel>
           <DropdownMenuSeparator />
           <DropdownMenuItem onClick={handleLightTheme}>
             <Sun />

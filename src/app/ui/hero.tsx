@@ -20,7 +20,7 @@ export function Hero() {
             alt="Profile picture"
             width={100}
             height={100}
-            className="rounded-full border border-primary"
+            className="rounded-full border border-primary/30"
           />
         </figure>
 
@@ -45,7 +45,7 @@ export function Hero() {
           href={"#projects"}
           className={buttonVariants({ variant: "default" })}
         >
-          Projectos
+          Proyectos
         </Link>
         <Link
           href={"#contact"}

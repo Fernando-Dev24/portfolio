@@ -27,7 +27,7 @@ export const PROJECTS: CarouselItemData[] = [
     tags: ["Nextjs", "TypeScript", "TailwindCSS", "PostgreSQL"],
     liveUrl: "https://avaluos-callejas.com",
     thumbnail: "/projects/avaluos-callejas/thumbnail.webp",
-    studyCaseUrl: "/projects/avaluos-callejas",
+    // studyCaseUrl: "/projects/avaluos-callejas",
   },
   {
     type: "project",
